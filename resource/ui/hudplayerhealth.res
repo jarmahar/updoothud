@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
+		"font"			"mingliu24"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"
