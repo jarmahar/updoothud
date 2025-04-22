@@ -12,7 +12,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"LIMEbright"
-		"MeterBG"		"Gray"
+		"MeterBG"		"LIMEbright"
 	}
 	
 	"ItemEffectMeterBG"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"2"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
+		"xpos"					"27"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
@@ -96,5 +96,26 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"mingliu16"
+		"fgcolor"	            "LIMEbright"
+	}
+		"ItemEffectMeterCountSHADOW"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountSHADOW"
+		"xpos"					"26"
+		"ypos"					"1"
+		"zpos"					"0"
+		"wide"					"40"
+		"tall"					"40"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"mingliu16"
+		"fgcolor"	            "Black"
 	}
 }
