@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-300"		[$WIN32]
+		"xpos"			"c-330"		[$WIN32]
 		"xpos_minmode"	"20"		[$WIN32]
 		"ypos"			"250"	[$WIN32]
 		"ypos_minmode"	"250"	[$WIN32]
@@ -30,17 +30,17 @@
 		"zpos"			"4"
 		"wide"			"51"
 		"tall"			"51"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"222273"
 		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"ypos"			"22233"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
@@ -66,7 +66,7 @@
 		"tall"			"55"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -74,20 +74,36 @@
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"5"
+		"fieldName"		"PlayerStatusHealthValueSHADOW"
+		"xpos"			"126"
+		"ypos"			"51"	[$WIN32]
+		"zpos"			"0"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"mingliu32"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"Black"
+		
+	}
+		"PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"125"
+		"ypos"			"50"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"mingliu32"
+		"fgcolor"		"LIMEbright"
+		
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -100,8 +116,8 @@
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
